@@ -27,3 +27,14 @@ function playRound(playerSelection, computerSelection) {
         return 'You lose! Rock beats scissors!'
     } 
 }
+
+// Function that plays 5 games with the playerSelection case-insensitive
+
+function game() {
+  const playerSelection = prompt('rock, paper, scissors').toLowerCase()
+  for (let i = 0; i < 5; i++) {
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
+  }
+}
+
