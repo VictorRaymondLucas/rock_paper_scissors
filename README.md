@@ -1,1 +1,1 @@
-# rock_paper_scissors
+This is my project "Rock, paper, scissors" for The Odin Project, that is played throught javascript in the console.
