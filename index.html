@@ -9,17 +9,18 @@
 </head>
 <body>
     <div class="intro">
-        <p>Let us play a game</p>
+        <p>Let's play a game. First to 5.</p>
 </div>    
 <div class="container">
-        <button class="button rock">Rock</button>
-        <button class="button paper">Paper</button>
-        <button class="button scissors">Scissors</button>     
+        <button class="button rock" id="rock">Rock</button>
+        <button class="button paper" id="paper">Paper</button>
+        <button class="button scissors" id="scissors">Scissors</button>     
 </div> 
 <div class="outro">
-    <p>Player: </p>
-    <p>Computer: </p>
+    <p>Player: <span id="scorePlay">0</span></p>
+    <p>Computer:  <span id="scoreComp">0</span></p>
 </div>    
+<div id="result"></div>
     <script src="script.js"></script>
 </body>
 </html>
