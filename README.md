@@ -1,1 +1,1 @@
-This is my project "Rock, paper, scissors" for The Odin Project, that is played throught javascript in the console.
+This is a game of "Rock, paper, scissors". A project I made as a part of The Odin Project.
