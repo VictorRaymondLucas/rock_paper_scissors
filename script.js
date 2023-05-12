@@ -94,28 +94,4 @@ function getComputerChoice() {
   let choices = [ROCK,PAPER,SCISSORS]
   return choices [Math.floor(Math.random() * 3)]
 }
-
-
-/*
-
-// Function that plays 5 games with the playerSelection case-insensitive
-function game() {
-  const playerSelection = propt('rock, paper, scissors').toLowerCase()
-  for (let i = 0; i < 5; i++) {
-  const computerSelection = getComputerChoice();
-  console.log(playRound(playerSelection, computerSelection));
-  }
-
-
-  // Added this part to keep score, along with two variables at the top of the script and ++ in the playRound function
-
-  if (playerScore < computerScore) {
-    return 'You beat the computer! Hazzah!'
-  } else if (playerScore > computerScore) {
-    return 'The computer wins! Noooo!'
-  } else {
-    return 'You tied...boring!'
-  }
-}
-
-*/
+  
